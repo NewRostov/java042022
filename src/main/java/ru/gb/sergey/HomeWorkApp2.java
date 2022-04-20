@@ -7,6 +7,8 @@ public class HomeWorkApp2 {
         d(-1); //задание 2
 
         System.out.println(e(-5)); // задание 3
+
+        str("word", 111); // задание 4
     }
     public static boolean c (int a, int b) {
 
@@ -24,9 +26,22 @@ public class HomeWorkApp2 {
     }
 
     public static boolean e(int a) {
-
             return a >= 0;
+    }
+
+
+    public static void str(String a, int b )
+    {
+        for (int i = 0; i < b; i++)
+        {
+            System.out.println(a + (i + 1));
         }
+    }
+
+
+
+
+
 
 
 }
