@@ -34,6 +34,25 @@ public class HomeWorkApp3 {
             }
             System.out.print("arr" + i + "=" + r[i] + ", ");
         }
+
+        // задание 4
+        System.out.println();
+        System.out.println("задание 4");
+        int[] [] d = new int[9][9];
+        for (int i = 0; i < d.length; i++) {
+            for (int j = 0; j < d.length; j++) {
+                if(i == j){
+                    d[i][j] = 1;
+                }else {
+                    d[i][j] = 0;
+                }
+                System.out.print(d[i][j]);
+            }
+            System.out.println();
+        }
+
+
+
     }
 
 }
