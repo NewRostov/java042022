@@ -36,12 +36,24 @@ public class HomeWorkApp3 {
         }
 
         // задание 4
+        // i=j
+        // 0=5  - сумма = длине массива ??? вроде верно !!!
+        // 1=4
+        // 2=3
+        // 3=2
+        // 4=1
+        // Допустим некая переменая s равно сумме i+j, а это длина квадратного двуменого массива,
+        // следовательно i+j=d.length
+        // с учетом того что индекс массиво начинается с нуля, то длина массива по факту на единицу больше индекса
+        //следовательно вычитаем из d.length единицу
+        // или i = (d.length -1 ) - j
+
         System.out.println();
         System.out.println("задание 4");
-        int[] [] d = new int[9][9];
+        int[] [] d = new int[5][5];
         for (int i = 0; i < d.length; i++) {
             for (int j = 0; j < d.length; j++) {
-                if(i == j){
+                if((i == j) || (i == (d.length - 1) - j)){
                     d[i][j] = 1;
                 }else {
                     d[i][j] = 0;
@@ -51,6 +63,8 @@ public class HomeWorkApp3 {
             System.out.println();
         }
 
+        System.out.println();
+        System.out.println("задание 5");
 
 
     }
