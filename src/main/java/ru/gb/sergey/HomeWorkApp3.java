@@ -63,10 +63,15 @@ public class HomeWorkApp3 {
             System.out.println();
         }
 
-        System.out.println();
-        System.out.println("задание 5");
-
 
     }
-
+    // задание 5
+    public static int[] array (int len, int initialValue){
+        int arr[] = new int[len];
+        for (int i = 0; i < arr.length; i++){
+            arr[i] = initialValue;
+        }
+        return arr;
+    }
 }
+
