@@ -63,6 +63,29 @@ public class HomeWorkApp3 {
             System.out.println();
         }
 
+        // задание 6 как найти максимумум и минимум?
+        // сравнить все числа поочередно i-й с i+1 и присваивать переменой МАХ максимум
+
+        System.out.println();
+        System.out.println("задание 6");
+
+        int[] m = { 0, 2, 3333, 4, 4, 5, 66, 89999 };
+        int[] max = new int[1];
+        int[] min = new int[1];
+        max[0] = m[0];
+        min[0] = m[0];
+        for (int i = 0; i < m.length; i++) {
+
+            if (max[0] < m[i]){
+                max[0] = m[i];
+            }
+            if ( min[0] > m[i] ){
+                min[0] = m[i];
+            }
+        } System.out.println("max = " + max[0]);
+          System.out.println("min = " + min[0]);
+
+
 
     }
     // задание 5
