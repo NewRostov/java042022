@@ -1,9 +1,4 @@
 package ru.gb.sergey;
-
-//public class HomeWorkApp4 {}
-
-//package ru.geekbrains;
-
         import java.util.Random;
         import java.util.Scanner;
 

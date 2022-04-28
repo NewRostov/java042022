@@ -88,6 +88,8 @@ public class HomeWorkApp3 {
 
 
 
+
+
     }
     // задание 5
     public static int[] array (int len, int initialValue){
@@ -97,5 +99,9 @@ public class HomeWorkApp3 {
         }
         return arr;
     }
+
+
+
+
 }
 
