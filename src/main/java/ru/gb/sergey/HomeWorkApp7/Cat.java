@@ -30,6 +30,5 @@ public class Cat {
     }
 
     public boolean isSatiety() {
-        return satiety;
-    }
+        return satiety;}
 }
