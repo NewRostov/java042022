@@ -7,11 +7,20 @@ public class Plate {
         this.food = food;
     }
 
-    public void decreaseFood(int n) {
-        food -= n;
+    public boolean decreaseFood(int appetite) {
+        if (appetite <= food) {
+            food -= appetite;
+            return true;
+        }
+        System.out.println("Еды мало");
+        return false;
     }
 
-    public void info() {
-        System.out.println("plate: " + food);
+    public void increaseFood(int appetite) {
+        food += appetite;
+    }
+
+    public int getFood() {
+        return food;
     }
 }
